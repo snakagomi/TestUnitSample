@@ -19,4 +19,9 @@ public class calcTest {
         calc obj = new calc();
         assertEquals(3,1+2);
     }
+
+    @Test
+    public void multi() throws Exception{
+        assertEquals(6,2*3);
+    }
 }
